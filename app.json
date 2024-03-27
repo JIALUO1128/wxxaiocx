@@ -1,10 +1,15 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/list/list"
+    "pages/application/application",
+    "pages/news/news",
+    "pages/find/find",
+    "pages/My/My"
+    
+
   ],
   "window": {
-    "navigationBarTitleText": "微信小程序",
+    "navigationBarTitleText": "智慧校园",
     "navigationBarBackgroundColor": "#f3514f",
     "navigationBarTextStyle": "black",
     "navigationStyle": "default"

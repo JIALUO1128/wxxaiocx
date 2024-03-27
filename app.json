@@ -4,8 +4,10 @@
     "pages/list/list"
   ],
   "window": {
+    "navigationBarTitleText": "微信小程序",
+    "navigationBarBackgroundColor": "#f3514f",
     "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
+    "navigationStyle": "default"
   },
   "style": "v2"
 }

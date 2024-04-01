@@ -1,0 +1,22 @@
+<!--components/recommend/recommend.wxml-->
+<view class="recommend">
+  <text class="text1">{{texts[0]}}</text>
+  <text class="text2" wx:if="{{texts[1]}}">{{texts[1]}}</text>
+
+  <scroll-view class="scroll-x" scroll-x>
+    <view class="recommend-card" wx:for="{{recommendCards}}" wx:key="id">
+      <view>
+        <view style="background-color: {{item.backgroundColor}};">
+          <image src="{{item.imagePath}}" />
+        </view>
+        <text>{{item.text1}}</text>
+        <text>{{item.text2}}</text>
+        <view>
+          <image src="/assets/images/icons/eyes.png" />
+          <text>100+</text>
+        </view>
+        <image src="/assets/images/icons/add.png" mode="" />
+      </view>
+    </view>
+  </scroll-view>
+</view>

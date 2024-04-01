@@ -1,0 +1,102 @@
+/* recommend */
+
+.recommend {
+  width: 100%;
+  padding: 20rpx 0;
+
+  >text {
+    display: block;
+    padding: 10rpx 0;
+  }
+
+  .text1 {
+    color: #101010;
+    font-size: 38rpx;
+    font-weight: 600;
+  }
+
+  .text2 {
+    color: #797979;
+    font-size: 24rpx;
+  }
+
+  .scroll-x {
+    width: 100%;
+    // height: 360rpx;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-around;
+
+    .recommend-card {
+      background-color: #ffffff;
+      display: inline-block;
+      margin: 12rpx 12rpx 12rpx 0;
+      border-radius: 16rpx;
+      overflow: hidden;
+      box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+
+      view {
+        width: 240rpx;
+        height: 360rpx;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        view {
+          &:first-child {
+            width: 84rpx;
+            height: 84rpx;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          &:nth-child(4) {
+            width: 90rpx;
+            height: 50rpx;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            text {
+              font-size: 18rpx;
+            }
+
+            image {
+              width: 28rpx;
+              height: 28rpx;
+
+            }
+          }
+
+          image {
+            width: 48rpx;
+            height: 48rpx;
+          }
+        }
+
+        >text {
+          &:nth-child(2) {
+            color: #101010;
+            font-size: 24rpx;
+          }
+
+          &:nth-child(3) {
+            color: #797979;
+            font-size: 20rpx;
+          }
+        }
+
+        >image {
+          width: 48rpx;
+          height: 48rpx;
+        }
+      }
+
+    }
+  }
+}

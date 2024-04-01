@@ -1,2 +1,35 @@
 // index.js
-Page({})
+Page({
+  icons:[
+    {
+      name:'icon1',
+      title:'学校概况',
+      imgUrl:'/img/imgs/',
+      backgroundColor:'F6B059'
+    },
+    {
+      name:'icon2',
+      title:'成绩查询',
+      imgUrl:'',
+      backgroundColor:'F6B059'
+    },
+    {
+      name:'icon3',
+      title:'缴费入口',
+      imgUrl:'',
+      backgroundColor:'EC1E71'
+    },
+    {
+      name:'icon4',
+      title:'学院预警',
+      imgUrl:'',
+      backgroundColor:'03E391'
+    },
+    {
+      name:'icon5',
+      title:'全部',
+      imgUrl:'',
+      backgroundColor:'031E9DFF'
+    },
+  ]
+})

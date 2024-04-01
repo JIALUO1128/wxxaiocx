@@ -1,0 +1,11 @@
+<view class="messagelist" wx:for="{{messagelist}}" wx:key="id">
+    <image src="{{item.imageUrl}}" mode="" />
+    <view>
+      <text>{{item.text1}}</text>
+      <text>{{item.text2}}</text>
+    </view>
+    <text>{{item.time}}</text>
+</view>
+
+
+

@@ -1,31 +1,24 @@
-<!--index.wxml-->
-<!-- 头文件 -->
-<swiper class="swiper-container" indicator-dots indicator-color="white" indicator-active-color="gray" autoplay="3000" circular>
-  <swiper-item>
-    <view class="itte">
-    <image src="/img/images/swiper.png" />
-    </view>
-  </swiper-item>
-  <swiper-item>
-    <view class="itte"><image src="/img/images/swiper.png" /></view>
-  </swiper-item>
-  <swiper-item>
-    <view class="itte"><image src="/img/images/swiper.png" /></view>
-  </swiper-item>
-</swiper>
-<view class="head-text">
-<text user-select>智慧校园门户</text>
-<text user-select>学校概况办事指南等功能方便快捷办事实时查看</text>
-<view class="btn">去了解</view>
+<!-- 头部 -->
+<view class="head">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" class="swiper">
+    <block wx:for="{{background}}" wx:key="*this">
+      <swiper-item>
+        <image src="/img/images/swiper.png" mode=""/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="head-text">
+    <text user-select>智慧校园门户</text>
+    <text user-select>学校概况办事指南等功能方便快捷办事实时查看</text>
+    <view class="btn">去了解</view>
+  </view>
 </view>
 <!-- icon -->
 <view class="icon">
-<view>
-<view>
-<image src="" mode=""/>
-<text></text>
+  <view wx:for="{{icons}}" wx:key="index" class="icon-container">
+    <view style="background-color: {{item.backgroundColor}}">
+      <image src="{{item.imgUrl}}" />
+    </view>
+    <text>{{item.title}}</text>
+  </view>
 </view>
-</view>
-</view>
-
-

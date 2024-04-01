@@ -8,7 +8,7 @@
     "pages/test/test"
 
   ],
-  "entryPagePath": "pages/test/test",
+  "entryPagePath": "pages/index/index",
   "window": {
     "navigationBarTitleText": "智慧校园",
     "navigationBarBackgroundColor": "#FFFFFF",

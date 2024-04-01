@@ -1,0 +1,17 @@
+<view class="listTitle">
+  <text class="{{currentTab === index ? 'active' : ''}}" wx:for="{{informListTitle}}" wx:key="id" bindtap="switchTab" data-index="{{index}}">{{item.title}}</text>
+</view>
+<view class="content">
+  <view wx:if="{{currentTab === index}}" wx:for="{{informListTitle}}" wx:key="id">
+    <!-- <slot name="{{index}}"></slot> -->
+    <view class="inform-card" wx:for="{{informListCard}}" wx:key="index" wx:if="{{currentTab === item.currentTab}}">
+      <view class="inform-card-left">
+        <text user-select>{{item.text1}}</text>
+        <text user-select>{{item.text2}}</text>
+      </view>
+      <view class="inform-card-right" style="background: linear-gradient(to bottom, {{item.startBackgroundColor}},{{item.endBackgroundColor}});">
+        <image src="{{item.imagePath}}" mode="" />
+      </view>
+    </view>
+  </view>
+</view>

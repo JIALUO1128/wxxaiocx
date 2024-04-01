@@ -4,31 +4,31 @@ Page({
     {
       name:'icon1',
       title:'学校概况',
-      imgUrl:'/img/imgs/',
+      imgUrl:'/img/images/icons/setting-icons/icon1.png',
       backgroundColor:'F6B059'
     },
     {
       name:'icon2',
       title:'成绩查询',
-      imgUrl:'',
+      imgUrl:'/img/images/icons/setting-icons/icon2.png',
       backgroundColor:'F6B059'
     },
     {
       name:'icon3',
       title:'缴费入口',
-      imgUrl:'',
+      imgUrl:'/img/images/icons/setting-icons/icon3.png',
       backgroundColor:'EC1E71'
     },
     {
       name:'icon4',
       title:'学院预警',
-      imgUrl:'',
+      imgUrl:'/img/images/icons/setting-icons/icon4.png',
       backgroundColor:'03E391'
     },
     {
       name:'icon5',
       title:'全部',
-      imgUrl:'',
+      imgUrl:'/img/images/icons/setting-icons/icon5.png',
       backgroundColor:'031E9DFF'
     },
   ]

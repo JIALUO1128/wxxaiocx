@@ -1,6 +1,2 @@
 <!--index.wxml-->
-<scroll-view class="scrollarea" scroll-y type="list">
-  <view class="container">
-    你好！
-  </view>
-</scroll-view>
+

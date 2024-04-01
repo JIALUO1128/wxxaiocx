@@ -1,0 +1,29 @@
+/* components/status-of-hings/status-of-things.wxss */
+.things {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  >view {
+    padding: 20rpx 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    >view {
+      width: 100rpx;
+      height: 100rpx;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      image {
+        width: 50rpx;
+        height: 50rpx;
+      }
+    }
+    text{
+      padding: 20rpx 0;
+    }
+  }
+}

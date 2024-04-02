@@ -93,7 +93,7 @@ Page({
     },
   ],
   // 推荐应用数据
-  recommenndCards:[{
+  recommendCards:[{
     id:1,
     text1:"成绩查询",
     text2:"查询当前及历史成绩",

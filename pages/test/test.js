@@ -7,60 +7,106 @@ Page({
   data: {
     background: ['tabbar1', 'tabbar2', 'tabbar3'],
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad(options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload() {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom() {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage() {
-
-  }
+  // 通知卡片标题
+  informListTitle: [{
+    id: 1,
+    title: "通知公告",
+  }, {
+    id: 2,
+    title: "通知公告"
+  }, {
+    id: 3,
+    title: "综合信息"
+  }, {
+    id: 4,
+    title: "学术动态"
+  }],
+    // 通知卡片数据
+informListCard: [{
+  currentTab: 0,
+  "text1": "关于加强新生入学后校园安全管理规范的通知",
+  "text2": "校园新闻网",
+  "imagePath": "../../img/images/card/card1.png",
+  "startBackgroundColor": "#b8fcfe",
+  "endBackgroundColor": "#defbfc",
+},
+{
+  currentTab: 0,
+  "text1": "关于开展2023新生入学教育系列培训课程的指导意见",
+  "text2": "信息化管理中心",
+  "imagePath": "../../img/images/card/card2.png",
+  "startBackgroundColor": "#8cb948",
+  "endBackgroundColor": "#cddcb7",
+},
+{
+  currentTab: 0,
+  "text1": "关于加强新生入学后校园安全管理条例实行的通知",
+  "text2": "教务处",
+  "imagePath": "../../img/images/card/card3.png",
+  "startBackgroundColor": "#b4fdff",
+  "endBackgroundColor": "#d1fafb",
+},
+{
+  currentTab: 1,
+  "text1": "关于加强新生入学后校园安全管理规范的通知",
+  "text2": "校园新闻网",
+  "imagePath": "../../img/images/card/card1.png",
+  "startBackgroundColor": "#b8fcfe",
+  "endBackgroundColor": "#defbfc",
+},
+{
+  currentTab: 2,
+  "text1": "关于开展2023新生入学教育系列培训课程的指导意见",
+  "text2": "信息化管理中心",
+  "imagePath": "../../img/images/card/card2.png",
+  "startBackgroundColor": "#8cb948",
+  "endBackgroundColor": "#cddcb7",
+},
+{
+  currentTab: 3,
+  "text1": "关于加强新生入学后校园安全管理条例实行的通知",
+  "text2": "教务处",
+  "imagePath": "../../img/images/card/card3.png",
+  "startBackgroundColor": "#b4fdff",
+  "endBackgroundColor": "#d1fafb",
+},
+],
+// 推荐应用数据
+recommenndCards:[{
+id:1,
+text1:"成绩查询",
+text2:"查询当前及历史成绩",
+imagePath:"/img/images/icons/icon-tj1.png",
+backgroundColor:"#fdae24"
+},
+{
+id:2,
+text1:"图书借阅",
+text2:"查看图书借阅记录",
+imagePath:"/img/images/icons/icon-tj2.png",
+backgroundColor:"#19aeef"
+},
+{
+id:3,
+text1:"网上查询",
+text2:"自助网上缴费",
+imagePath:"/img/images/icons/icon-tj3.png",
+backgroundColor:"#22dc95"
+},
+{
+id:4,
+text1:"学院预警",
+text2:"查看学院预警信息",
+imagePath:"/img/images/icons/icon-tj4.png",
+backgroundColor:"#d36a6c"
+},
+],
+ /* 推荐组件标题 */
+ texts: ['推荐应用','根据您最近浏览和办理应用为您推荐'],
+ indicatorDots: true,
+ vertical: false,
+ autoplay: true,
+ interval: 2000,
+ duration: 800,
+ circular: true,
 })

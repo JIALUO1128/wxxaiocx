@@ -49,3 +49,82 @@
     }
   }
 }
+
+//通知栏
+.inform{
+  width: 100%;
+  margin: 20rpx 0;
+  display: flex;
+  flex-direction: row;
+  justify-content:start;
+  align-items: center;
+  view{
+    width: 50rpx;
+    height: 50rpx;
+    border-radius: 50%;
+    background-color: #00ad7b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    image{
+      width: 32rpx;
+      height: 32rpx;
+    }
+  }
+   text{
+      margin-left: 24rpx;
+    }
+}
+// 广告位
+.advertisement{
+  width: 100%;
+  height: 300rpx;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 32px;
+  overflow: hidden;
+  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.11);
+  .advertisement-left{
+    width: 300rpx;
+    margin: 40rpx 40rpx;
+    >text{
+      display: block;
+      padding: 12rpx;
+      &:first-child{
+        font-size: 36rpx;
+      }
+      &:nth-child(2){
+        font-size: 28rpx;
+        color: #9A9A9A;
+      }
+    }
+    view{
+      width: 140rpx;
+      padding: 12rpx;
+      border-radius: 32rpx;
+      background:linear-gradient(to right, #3fbdf5, #80e1e1);
+      border: 1px solid #68D0E4;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      image{
+        width: 36rpx;
+        height: 36rpx;
+      }
+    }
+  }
+    .advertisement-rigth{
+      width: 300rpx;
+      image{
+      width: 310rpx;
+      height: 300rpx;
+    }
+  }
+}
+/* 通知分类 */
+.informlist {
+  width: 100%;
+  .inform-content {
+    padding: 20rpx 0;
+  }
+}

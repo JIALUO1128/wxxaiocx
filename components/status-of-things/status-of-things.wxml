@@ -2,7 +2,7 @@
 <view class="things">
 	<view wx:for="{{things}}" wx:key="id">
 		<view style="background-color: {{item.backgroundColor}};">
-			<image src="{{imageUrl}}" mode="" />
+			<image src="{{item.imageUrl}}" mode="" />
 		</view>
 		<text>{{item.text}}</text>
 	</view>

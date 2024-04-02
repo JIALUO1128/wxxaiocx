@@ -61,3 +61,6 @@
 </view>
 <!-- 推荐应用 -->
 <recommend recommendCards="{{recommendCards}}" texts="{{texts}}"></recommend>
+<!-- 通知分类infomlist -->
+<!-- informlist组件 -->
+<informlist informListTitle="{{informListTitle}}" informListCard="{{informListCard}}"></informlist>

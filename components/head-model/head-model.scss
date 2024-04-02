@@ -1,1 +1,52 @@
 /* components/head-model/head-model.wxss */
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #000;
+  background: #f8f8f8;
+  border-radius: 16rpx;
+  z-index: 9999;
+  > view {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 14rpx 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    image {
+      width: 40rpx;
+      height: 40rpx;
+      padding: 0 20rpx;
+    }
+     > view {
+      &:first-child {
+        padding:0 20rpx;
+        width: 80rpx;
+      }
+      &:nth-child(2) {
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 16rpx;
+        box-shadow:1px 1px 1px 1px #efefef;
+        image {
+          width: 40rpx;
+          height: 40rpx;
+          padding: 12rpx;
+        }
+        .search {
+          width: 280rpx;
+          color: #333;
+          font-size: 14px;
+          // background: #fff;
+        }
+      }
+      
+    }
+  }
+}

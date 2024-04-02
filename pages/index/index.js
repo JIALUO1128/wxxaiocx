@@ -92,6 +92,36 @@ Page({
       "endBackgroundColor": "#d1fafb",
     },
   ],
+  // 推荐应用数据
+  recommenndCards:[{
+    id:1,
+    text1:"成绩查询",
+    text2:"查询当前及历史成绩",
+    imagePath:"/img/images/icons/icon-tj1.png",
+    backgroundColor:"#fdae24"
+  },
+  {
+    id:2,
+    text1:"成绩查询",
+    text2:"查询当前及历史成绩",
+    imagePath:"/img/images/icons/icon-tj2.png",
+    backgroundColor:"#19aeef"
+  },
+  {
+    id:3,
+    text1:"成绩查询",
+    text2:"查询当前及历史成绩",
+    imagePath:"/img/images/icons/icon-tj3.png",
+    backgroundColor:"#22dc95"
+  },
+  {
+    id:4,
+    text1:"成绩查询",
+    text2:"查询当前及历史成绩",
+    imagePath:"/img/images/icons/icon-tj4.png",
+    backgroundColor:"#d36a6c"
+  },
+],
      /* 推荐组件标题 */
      texts: ['推荐应用','根据您最近浏览和办理应用为您推荐'],
      indicatorDots: true,

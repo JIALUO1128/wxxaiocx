@@ -44,3 +44,17 @@
 </view>
 <text>关于系统上线运行的时间</text>
 </view>
+<!-- 广告位 -->
+<view class="advertisement">
+  <view class="advertisement-left">
+    <text>办事指南新体验</text>
+    <text>新增办事指南和消息栏目办事更便捷</text>
+  <view>
+    <text>去了解</text>
+    <image src="/img/images/icons/fa-caret-right.png" mode=""/>
+  </view>
+</view>
+<view class="advertisement-right">
+<image src="/img/images/newfeel.png" mode=""/>
+</view>
+</view>

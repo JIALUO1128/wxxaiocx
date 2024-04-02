@@ -1,2 +1,10 @@
 <!--components/messagelist/messagelist.wxml-->
-<text>components/messagelist/messagelist.wxml</text>
+<!-- 补课申请 -->
+<view class="messagelist" wx:for="{{messagelist}}"wk:key="id">
+<image src="{{item.imageUrl}}" mode=""/>
+<view>
+<text>{{item.text1}}</text>
+<text>{{item.text2}}</text>
+</view>
+<text>{{item.item}}</text>
+</view>

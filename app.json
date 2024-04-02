@@ -7,10 +7,20 @@
     "pages/My/My",
     "components/recommend/recommend",
     "components/informlist/informlist",
+    "pages/logs/logs",
+    "pages/setting/setting",
+    "pages/login/login-user/login-user",
+    "components/head-model/head-model",
+    "components/icons/icons",
+    "components/adcard/adcard",
+    "components/status-of-things/status-of-things",
+    "components/messagelist/messagelist",
+    "pages/login/login-face/login-face",
+    "pages/login/login-quick/login-quick",
     "pages/test/test"
 
   ],
-  "entryPagePath": "pages/test/test",
+  "entryPagePath": "pages/index/index",
   "window": {
     "navigationBarTitleText": "智慧校园",
     "navigationBarBackgroundColor": "#FFFFFF",

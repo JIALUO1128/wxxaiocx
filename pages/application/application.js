@@ -113,7 +113,9 @@ recommendCards: [{
 		imagePath: "/img/images/icons/icon-tj4.png",
 		backgroundColor: "#d36a6c",
 	},
-]
+],
+/* 推荐组件标题 */
+texts: ['推荐应用','根据您最近浏览和办理应用为您推荐'],
   },
 
   /**

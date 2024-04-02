@@ -1,3 +1,9 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+		"adcard":"../../components/adcard/adcard",
+    "recommend":"../../components/recommend/recommend",
+    "messagelist":"../../components/messagelist/messagelist",
+    "icons":"../../components/icons/icons"
+	},
+	"navigationStyle": "custom"
 }

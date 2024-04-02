@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+		"head-model":"../../components/head-model/head-model",
+    "informlist":"../../components/informlist/informlist"
+	},
+	"navigationStyle": "custom",
+  "backgroundColor": "#eeeeee"
 }

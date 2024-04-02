@@ -1,3 +1,9 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+		"head-model":"../../components/head-model/head-model",
+    "status-of-things":"../../components/status-of-things/status-of-things",
+    "messagelist":"../../components/messagelist/messagelist"
+	},
+	"navigationStyle": "custom",
+  "backgroundColor": "#eeeeee"
 }

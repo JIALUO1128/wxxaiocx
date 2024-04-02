@@ -5,6 +5,8 @@
     "pages/news/news",
     "pages/find/find",
     "pages/My/My",
+    "components/recommend/recommend",
+    "components/informlist/informlist",
     "pages/test/test"
 
   ],

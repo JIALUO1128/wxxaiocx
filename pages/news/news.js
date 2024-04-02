@@ -5,6 +5,35 @@ Page({
    * 页面的初始数据
    */
   data: {
+		things:[
+			{
+			id: 1,
+			text: "待办",
+			backgroundColor: "#f31a71",
+			imageUrl: "../../img/images/icons/clock.png"
+		},
+		{
+      id: 2,
+      text: "待阅",
+      backgroundColor: "#209bfd",
+      imageUrl: "../../img/images/icons/reference.png"
+    }, {
+      id: 3,
+      text: "已办",
+      backgroundColor: "#ffbf6b",
+      imageUrl: "../../img/images/icons/finish.png"
+    }, {
+      id: 4,
+      text: "已阅",
+      backgroundColor: "#8867f5",
+      imageUrl: "../../img/images/icons/small-bell.png"
+    }, {
+      id: 5,
+      text: "系统",
+      backgroundColor: "#3ad1ae",
+      imageUrl: "../../img/images/icons/smalleye.png"
+    }
+	]
 
   },
 

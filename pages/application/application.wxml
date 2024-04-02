@@ -1,2 +1,13 @@
 <!--pages/application/application.wxml-->
-<text>pages/application/application.wxml</text>
+<head-model>
+<text>应用</text>
+</head-model>
+<!-- adcard组件 -->
+<adcard></adcard>
+<!-- 推荐应用 -->
+<recommend recommendCards="{{recommendCards}}" texts="{{texts}}"></recommend>
+<!-- 分类通知 -->
+<informlist informListTitle="{{informListTitle}}"></informlist>
+
+<icons icons="{{icons}}" title="最新上线"></icons>
+<icons icons="{{icons2}}" title="电子教务"></icons>

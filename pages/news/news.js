@@ -33,7 +33,26 @@ Page({
       backgroundColor: "#3ad1ae",
       imageUrl: "../../img/images/icons/smalleye.png"
     }
-	]
+	],
+	messagelist:[{
+		id:1,
+		text1:"补课申请",
+		text2:"任课教师:系统管理员",
+		imageUrl:"../../img/images/icons/yellow-bell.png",
+		time:"昨天"
+	},{
+		id:2,
+		text1:"域名申请",
+		text2:"工作部门:系统维护 请假申请人:xxx",
+		imageUrl:"../../img/images/icons/Internet.png",
+		time:"昨天"
+	},{
+		id:3,
+		text1:"出国旅游申请",
+		text2:"工作部门:系统维护 请假申请人:xxx",
+		imageUrl:"../../img/images/icons/apply.png",
+		time:"昨天"
+	},]
 
   },
 

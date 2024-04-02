@@ -1,2 +1,9 @@
 <!--components/status-of-things/status-of-things.wxml-->
-<text>components/status-of-things/status-of-things.wxml</text>
+<view class="things">
+<view wx:for="{{things}}" wx:key="id">
+<view style="background-color: {{item.backgroundColor}};">
+<image src="{{imageUrl}}" mode=""/>
+</view>
+<text>{{item.text}}</text>
+</view>
+</view>

@@ -1,2 +1,18 @@
 <!--components/adcard/adcard.wxml-->
-<text>components/adcard/adcard.wxml</text>
+<!-- card -->
+<view class="ad-card">
+  <view class="ad-card-left">
+    <image src="../../img/images/card/women.png" mode="" />
+    <view>
+      <text>待办事项</text>
+      <text>我收藏的应用</text>
+    </view>
+  </view>
+  <view class="ad-card-right">
+    <image src="../../img/images/card/man.png" mode="" />
+    <view>
+      <text>办事指南</text>
+      <text>办事指南汇总</text>
+    </view>
+  </view>
+</view>

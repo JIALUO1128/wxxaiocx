@@ -5,11 +5,11 @@
       <slot></slot>
     </view>
     <view>
-      <image src="../../assets/images/icons/search.png" mode="" />
+      <image src="../../img/images/icons/search.png" mode="" />
       <input class="search" placeholder="输入关键词！" style="height:{{menuHeight}}px; min-height:{{menuHeight}}px; line-height:{{menuHeight}}px; left:{{menuRight}}px; top:{{menuTop}}px;"></input>
     </view>
-    <image src="../../assets/images/icons/scan.png" mode="" bind:tap="scanMate"/>
-    <image src="../../assets/images/icons/message-black.png" mode="" bind:tap="switchTab"/>
+    <image src="../../img/images/icons/scan.png" mode="" bind:tap="scanMate"/>
+    <image src="../../img/images/icons/message-black.png" mode="" bind:tap="switchTab"/>
   </view>
 </view>
 

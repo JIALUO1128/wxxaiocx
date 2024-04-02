@@ -1,9 +1,0 @@
-<!--components/status-of-hings/status-of-things.wxml-->
-<view class="things" >
-  <view wx:for="{{things}}" wx:key="id">
-    <view style="background-color: {{item.backgroundColor}}">
-      <image src="{{item.imageUrl}}" mode="" />
-    </view>
-    <text>{{item.text}}</text>
-  </view>
-</view>

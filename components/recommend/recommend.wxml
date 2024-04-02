@@ -12,10 +12,10 @@
         <text>{{item.text1}}</text>
         <text>{{item.text2}}</text>
         <view>
-          <image src="/assets/images/icons/eyes.png" />
+          <image src="/img/images/icons/eyes.png" />
           <text>100+</text>
         </view>
-        <image src="/assets/images/icons/add.png" mode="" />
+        <image src="/img/images/icons/add.png" mode="" />
       </view>
     </view>
   </scroll-view>

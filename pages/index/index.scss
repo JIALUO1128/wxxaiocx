@@ -173,7 +173,7 @@
     }
 }
 // 广告位
-.advertisement{
+.advertisement {
   width: 100%;
   height: 300rpx;
   display: flex;
@@ -181,47 +181,40 @@
   border-radius: 32px;
   overflow: hidden;
   box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.11);
-  .advertisement-left{
+  .advertisement-left {
     width: 300rpx;
     margin: 40rpx 40rpx;
-    >text{
+    >text {
       display: block;
       padding: 12rpx;
-      &:first-child{
+      &:first-child {
         font-size: 36rpx;
       }
-      &:nth-child(2){
+      &:nth-child(2) {
         font-size: 28rpx;
         color: #9A9A9A;
       }
     }
-    view{
+    view {
       width: 140rpx;
       padding: 12rpx;
       border-radius: 32rpx;
-      background:linear-gradient(to right, #3fbdf5, #80e1e1);
+      background: linear-gradient(to right, #3fbdf5, #80e1e1);
       border: 1px solid #68D0E4;
       display: flex;
       justify-content: space-around;
       align-items: center;
-      image{
+      image {
         width: 36rpx;
         height: 36rpx;
       }
     }
   }
-    .advertisement-rigth{
-      width: 300rpx;
-      image{
+  .advertisement-right {
+    width: 300rpx;
+    image {
       width: 310rpx;
-      height: 300rpx;
+      height: 300rpx
     }
-  }
-}
-/* 通知分类 */
-.informlist {
-  width: 100%;
-  .inform-content {
-    padding: 20rpx 0;
   }
 }

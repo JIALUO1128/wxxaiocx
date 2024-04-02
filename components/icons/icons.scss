@@ -1,1 +1,33 @@
 /* components/icons/icons.wxss */
+.icons {
+  width: 100%;
+  padding: 12rpx 0;
+
+  .icons-title {
+    padding: 12rpx 0;
+
+    text {
+      color: #101010;
+    }
+  }
+
+  .icons-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    .icon {
+      width: 25%;
+      padding: 24rpx 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      image {
+        width: 64rpx;
+        height: 64rpx;
+      }
+    }
+    ;
+  }
+}

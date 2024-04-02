@@ -1,2 +1,12 @@
 <!--components/icons/icons.wxml-->
-<text>components/icons/icons.wxml</text>
+<view class="icons">
+  <view class="icons-title">
+    <text>{{title}}</text>
+  </view>
+  <view class="icons-icon">
+    <view class="icon" wx:for="{{icons}}" wx:key="id">
+      <image src="{{item.imageUrl}}" mode="center"/>
+      <text wx:if="{{item.iconTitle}}">{{item.iconTitle}}</text>
+    </view>
+  </view>
+</view>

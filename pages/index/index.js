@@ -28,6 +28,20 @@ Page({
       imgUrl: '/img/images/icons/icon5.png',
       backgroundColor: '#031E9DFF'
     }],
+       // 通知卡片标题
+       informListTitle: [{
+        id: 1,
+        title: "通知公告",
+      }, {
+        id: 2,
+        title: "通知公告"
+      }, {
+        id: 3,
+        title: "综合信息"
+      }, {
+        id: 4,
+        title: "学术动态"
+      }],
      /* 推荐组件标题 */
      texts: ['推荐应用','根据您最近浏览和办理应用为您推荐'],
      indicatorDots: true,

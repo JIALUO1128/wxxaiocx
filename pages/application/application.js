@@ -83,7 +83,36 @@ Page({
 		title: "科研服务",
 		imageUrl: "../../img/images/icons/图标4.png"
 	}, 
-
+], 
+/* 推荐应用数据 */
+recommendCards: [{
+		id: 1,
+		text1: "成绩查询",
+		text2: "查询当前及历史成绩",
+		imagePath: "/img/images/icons/icon-tj1.png",
+		backgroundColor: "#22dc95",
+	},
+	{
+		id: 2,
+		text1: "图书借阅",
+		text2: "查看图书借阅记录",
+		imagePath: "/img/images/icons/icon-tj2.png",
+		backgroundColor: "#fdae24",
+	},
+	{
+		id: 3,
+		text1: "网上查询",
+		text2: "自助网上缴费",
+		imagePath: "/img/images/icons/icon-tj3.png",
+		backgroundColor: "#19aeef",
+	},
+	{
+		id: 4,
+		text1: "学院预警",
+		text2: "查看学院预警信息",
+		imagePath: "/img/images/icons/icon-tj4.png",
+		backgroundColor: "#d36a6c",
+	},
 ]
   },
 

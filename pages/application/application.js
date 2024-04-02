@@ -25,42 +25,42 @@ Page({
   ],
   icons:[{
   id:1,
-  iconsTitle:"学校概况",
+  iconTitle:"学校概况",
   imageUrl:"../../img/images/icons/school.png"
   },
   {
     id:2,
-    iconsTitle:"学习地图",
+    iconTitle:"学习地图",
     imageUrl:"../../img/images/icons/map.png"
     },
     {
       id:3,
-      iconsTitle:"我的消费",
+      iconTitle:"我的消费",
       imageUrl:"../../img/images/icons/money.png"
       },
       {
         id:4,
-        iconsTitle:"电子邮件",
+        iconTitle:"电子邮件",
         imageUrl:"../../img/images/icons/email.png"
         },
         {
           id:5,
-          iconsTitle:"图书借阅",
+          iconTitle:"图书借阅",
           imageUrl:"../../img/images/icons/book.png"
           },
           {
             id:6,
-            iconsTitle:"奖励成果",
+            iconTitle:"奖励成果",
             imageUrl:"../../img/images/icons/trophy.png"
             },
             {
               id:7,
-              iconsTitle:"我的党建",
+              iconTitle:"我的党建",
               imageUrl:"../../img/images/icons/redflag.png"
               },
               {
                 id:8,
-                iconsTitle:"网上审批",
+                iconTitle:"网上审批",
                 imageUrl:"../../img/images/icons/people.png"
                 },
   

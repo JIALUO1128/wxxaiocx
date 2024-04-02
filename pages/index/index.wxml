@@ -3,7 +3,7 @@
   <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" class="swiper">
     <block wx:for="{{background}}" wx:key="*this">
       <swiper-item>
-        <image src="/img/images/swiper.png" mode=""/>
+        <image src="/img/images/swiper.png" mode="" />
       </swiper-item>
     </block>
   </swiper>
@@ -21,4 +21,26 @@
     </view>
     <text>{{item.title}}</text>
   </view>
+</view>
+<!-- 快速手续入口 -->
+<view class="quick">
+  <view class="quick-left">
+    <image src="/img/images/man.png" />
+    <view>
+      <text>待办事项我的待办事项</text>
+    </view>
+  </view>
+  <view class="quick-right">
+    <image src="/img/images/woman.png" />
+    <view>
+      <text>办事指南办事指南汇总</text>
+    </view>
+  </view>
+</view>
+<!-- 通知栏 -->
+<view class="inform">
+<view>
+<image src="/img/images/icons/laba.png" mode=""/>
+</view>
+<text>关于系统上线运行的时间</text>
 </view>

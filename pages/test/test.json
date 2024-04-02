@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "recommend":"../../components/recommend/recommend",
+    "informlist":"../../components/informlist/informlist"
+  }
 }

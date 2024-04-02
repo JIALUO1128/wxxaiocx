@@ -1,101 +1,51 @@
-/* pages/test/test.wxss */
-.head {
-  position: relative;
+.quick {
   width: 100%;
-  height: 280rpx;
-  border-radius: 25rpx;
-  overflow: hidden;
-
-  .swiper {
-    width: 100%;
-    height: 280rpx;
-    border-radius: 25rpx;
-
-    image {
-      width: 100%;
-      height: 280rpx;
-    }
-  }
-
-  .head-text {
-    position: absolute;
-    width: 50%;
-    height: 200rpx;
-    top: 20rpx;
-    left: 40rpx;
-
-    /* border: 1px solid black; */
-    .btn {
-      position: absolute;
-      top: 140rpx;
-      left: 40rpx;
-      width: 116rpx;
-      height: 50rpx;
-      text-align: center;
-      line-height: 50rpx;
-      color: #ffffff;
-      border: 1px solid #ffffff;
-      border-radius: 50px;
-      font-size: 24rpx;
-    }
-
-    text:first-child {
-      position: absolute;
-      left: 40rpx;
-      color: #ffffff;
-      font-size: 28rpx;
-    }
-
-    text:nth-child(2) {
-      position: absolute;
-      top: 60rpx;
-      left: 40rpx;
-      color: #ffffff;
-      font-size: 24rpx;
-    }
-  }
-}
-
-/*icon  */
-
-.icon {
-  width: 100%;
-  margin: 16px auto;
+  margin: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-
-  .icon-container {
+ 
+  .quick-left,
+  .quick-right {
     position: relative;
-    width: 136.4rpx;
-    height: 140rpx;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: start;
+    width: 324rpx;
+    height: 175rpx;
+    border-radius: 16px;
+    color: #ffffff;
+    font-size: 28rpx;
+    overflow: hidden;
+  }
 
-    text {
+  .quick-left {
+    background-color: #FE9E6F;
+    image {
+      width: 224rpx;
+      height: 172rpx;
+    }
+    view {
+      width: 130rpx;
       position: absolute;
-      bottom: 0;
-      color: #101010;
-      font-size: 12px;
+      right: 18rpx;
+      top: 24rpx;
+    }
+  }
+
+  .quick-right {
+    /* 从左到右渐变 */
+    background: linear-gradient(to right, #92F6DB, #68D0E4);
+    image {
+      position: absolute;
+      right: 0;
+      width: 224rpx;
+      height: 172rpx;
     }
 
     view {
-      width: 72rpx;
-      height: 72rpx;
-      border-radius: 50%;
-      overflow: hidden;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-
-      image {
-        width: 38rpx;
-        height: 38rpx;
-      }
+      width: 130rpx;
+      position: absolute;
+      left: 18rpx;
+      top: 24rpx;
     }
   }
 }

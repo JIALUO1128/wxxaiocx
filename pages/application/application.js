@@ -66,8 +66,25 @@ Page({
   
   ],
   icons2:[{
-    
-  }]
+		id: 1,
+		title: "科研服务",
+		imageUrl: "../../img/images/icons/图标.png"
+	},
+	{
+		id: 2,
+		title: "科研服务",
+		imageUrl: "../../img/images/icons/图标2.png"
+	}, {
+		id: 3,
+		title: "科研服务",
+		imageUrl: "../../img/images/icons/图标3.png"
+	}, {
+		id: 4,
+		title: "科研服务",
+		imageUrl: "../../img/images/icons/图标4.png"
+	}, 
+
+]
   },
 
   /**

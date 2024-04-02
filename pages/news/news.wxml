@@ -1,2 +1,10 @@
 <!--pages/news/news.wxml-->
-<text>pages/news/news.wxml</text>
+<head-model>
+<text>消息</text>
+</head-model>
+<status-of-things>
+
+</status-of-things>
+
+<messagelist>
+</messagelist>

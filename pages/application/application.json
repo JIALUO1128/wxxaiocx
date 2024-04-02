@@ -1,3 +1,9 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "head-model":"../../components/head-model/head-model",
+    "recommend":"../../components/recommend/recommend",
+    "informlist":"../../components/informlist/informlist",
+    "adcard":"../../components/adcard/adcard",
+    "icons":"../../components/icons/icons"
+  }
 }

@@ -1,2 +1,14 @@
 <!--pages/find/find.wxml-->
-<text>pages/find/find.wxml</text>
+<head-model>
+<text>发现</text>
+</head-model>
+<!-- card -->
+<view class="card">
+<view>
+<text>发现新鲜事</text>
+<text>校内各院系各部门重要新闻汇报随时随地查看</text>
+</view>
+<image src="../../img/images/card/wImage.png" mode=""/>
+</view>
+<!-- 分类通知 -->
+<informlist informListTitle="{{informListTitle}}" informListCard="{{informListCard}}"></informlist>

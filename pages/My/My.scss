@@ -1,0 +1,77 @@
+/* pages/My/My.wxss */
+.my-head {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #5fdabe, #feffff);
+
+  .head {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    image {
+      width: 40rpx;
+      height: 40rpx;
+      padding: 0 40rpx;
+    }
+
+    >view {
+      flex: 1;
+      text-align: center;
+
+      text {
+        font-size: 34rpx;
+        color: #101010;
+        font-weight: 500;
+        text-align: center;
+      }
+    }
+  }
+
+  .my-head-info {
+    position: absolute;
+    bottom: 8rpx;
+    width: 100%;
+
+    .logged {
+      display: flex;
+      padding: 0 40rpx;
+      justify-content: space-between;
+      align-items: center;
+
+      >view {
+        display: flex;
+        flex-direction: column;
+
+        text {
+          &:first-child {
+            font-size: 30px;
+          }
+
+          &:nth-child(2) {
+            color: #797979;
+          }
+        }
+
+      }
+
+      image {
+        width: 100rpx;
+        height: 100rpx;
+      }
+    }
+
+    .not-logged {
+      text-align: center;
+      font-size: 48rpx;
+
+    }
+  }
+
+
+}

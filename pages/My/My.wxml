@@ -1,2 +1,34 @@
 <!--pages/My/My.wxml-->
-<text>pages/My/My.wxml</text>
+<!-- 顶部栏 -->
+<view class="my-head" style="height: {{navBarHeight+100}}px;">
+  <view class="head" style="top: {{navBarHeight}}px;">
+    <image src="../../img/images/icons/setting.png" mode="" bind:tap="setting"></image>
+    <view><text>我的</text></view>
+    <image src="../../img/images/icons/message.png" mode="" bind:tap="switchTab" />
+  </view>
+  <view class="my-head-info">
+    <view class="logged" wx:if="{{userInfo.name}}">
+      <view>
+        <text>{{userInfo.name}}</text>
+        <text>{{imInfos.text}}</text>
+      </view>
+      <image src="{{imInfos.imageUrl}}" mode="" />
+    </view>
+    <view class="not-logged" wx:else>
+      <navigator url="../login/login-user/login-user"><text>未登录</text></navigator>
+    </view>
+  </view>
+
+</view>
+<!--占位 -->
+<view style="height: {{navBarHeight+100}}px;">
+
+</view>
+<adcard></adcard>
+<!-- 消息列表组件 -->
+<messagelist messagelist="{{messagelist}}"></messagelist>
+<!-- 推荐组件 -->
+<recommend texts="{{texts}}"></recommend>
+<!-- icon组件 -->
+<icons icons="{{icons}}" title="我的收藏"></icons>
+<icons icons="{{icons2}}" title="我的信息"></icons>

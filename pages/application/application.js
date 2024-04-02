@@ -5,6 +5,24 @@ Page({
    * 页面的初始数据
    */
   data: {
+    informListTitle:[{
+      id:1,
+      title:"最新上线"
+    },
+    {
+      id:2,
+      title:"电子商务"
+    },
+    {
+      id:3,
+      title:"教学服务"
+    },
+    {
+      id:4,
+      title:"科研服务"
+    },
+
+  ],
 
   },
 

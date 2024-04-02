@@ -2,9 +2,7 @@
 <head-model>
 <text>消息</text>
 </head-model>
-<status-of-things>
-
+<status-of-things things="{{things}}">
 </status-of-things>
-
-<messagelist>
+<messagelist messagelist="{{messagelist}}">
 </messagelist>

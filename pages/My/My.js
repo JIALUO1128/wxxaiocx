@@ -1,6 +1,5 @@
 // pages/My/My.js
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -111,10 +110,10 @@ Page({
       text: "信息化管理中心",
       imageUrl: "../../img/imimgages/Avatar.png"
 		},
-		userInfo: app.globalData.userInfo,
+		// userInfo: app.globalData.userInfo,
     /* 推荐组件标题 */
     texts: ['推荐应用'],
-    navBarHeight: app.globalData.navBarHeight,
+    // navBarHeight: app.globalData.navBarHeight,
 	},
 	/* setting方法tiao */
   setting() {

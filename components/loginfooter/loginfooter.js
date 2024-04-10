@@ -1,66 +1,67 @@
-// components/loginfooter/loginfooter.js
-Page({
+Component({
 
   /**
-   * 页面的初始数据
+   * 组件的属性列表
+   */
+  properties: {
+
+  },
+
+  /**
+   * 组件的初始数据
    */
   data: {
-
+    footerList: [{
+      id: 1,
+      text: "刷脸登陆",
+      iconUrl: "../../img/images/icons/login-icons/face.png",
+      path: ""
+    }, {
+      id: 2,
+      text: "一键登录",
+      iconUrl: "../../img/images/icons/login-icons/yijiandenglu.png",
+      path: ""
+    }, {
+      id: 3,
+      text: "微信登陆",
+      iconUrl: "../../img/images/icons/login-icons/weixindenglu.png",
+      path: ""
+    }]
   },
 
   /**
-   * 生命周期函数--监听页面加载
+   * 组件的方法列表
    */
-  onLoad(options) {
+  methods: {
+    next_calculator: function (event) {
+      const id = event.currentTarget.dataset.id;
+      // 获取当前页面栈
+      const pages = getCurrentPages();
+      // 获取当前页面实例
+      const currentPage = pages[pages.length - 1];
+      
+      // console.log(currentPage.route);
+      if (id == 1) {
+        const url = 'pages/login/login-face/login-face';
+        // 判断当前页面路由是否与目标路由一致
+        if (currentPage.route === url) {
+          console.log('当前页面路由与目标路由一致');
+        } else {
+          wx.navigateTo({
+            url: "/"+url,
+          })
+        }
 
-  },
+      }
+      if (id == 2) {
+        const url = '/pages/login/login-quick/login-quick';
+        wx.navigateTo({
+          // url: '/pages/login/login-quick/login-quick',
+          url: url,
+        })
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady() {
+      }
 
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload() {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom() {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage() {
-
+    },
   }
 })

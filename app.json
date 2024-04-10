@@ -20,7 +20,7 @@
     "pages/login/login-quick/login-quick",
     "pages/test/test"
   ],
-  "entryPagePath": "pages/My/My",
+  "entryPagePath": "pages/index/index",
   "window": {
     "navigationBarTitleText": "智慧校园",
     "navigationBarBackgroundColor": "#FFFFFF",

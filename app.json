@@ -14,7 +14,8 @@
     "components/icons/icons",
     "components/adcard/adcard",
     "components/status-of-things/status-of-things",
-    "components/messagelist/messagelist",
+		"components/messagelist/messagelist",
+		"components/loginfooter/loginfooter",
     "pages/login/login-face/login-face",
     "pages/login/login-quick/login-quick",
     "pages/test/test"

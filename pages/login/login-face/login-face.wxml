@@ -1,2 +1,12 @@
 <!--pages/login/login-face/login-face.wxml-->
-<text>pages/login/login-face/login-face.wxml</text>
+<view class="content">
+<view>
+<image src="../../../imgimg/images/Avatar.png" mode="" />
+<text>您好</text>
+<text>欢迎登录智慧门户系统,点击进行人脸验证</text>
+</view>
+<image src="../../../img/images/login-face.png" mode="" />
+<text>点击进行人脸识别</text>
+</view>
+<!--loginfooter 组件 -->
+<loginfooter></loginfooter>

@@ -109,9 +109,12 @@ Page({
 		imInfos: {
       name: "user",
       text: "信息化管理中心",
-      imageUrl: "../../assets/images/Avatar.png"
-    },
-
+      imageUrl: "../../img/imimgages/Avatar.png"
+		},
+		userInfo: app.globalData.userInfo,
+    /* 推荐组件标题 */
+    texts: ['推荐应用'],
+    navBarHeight: app.globalData.navBarHeight,
   },
 
   /**

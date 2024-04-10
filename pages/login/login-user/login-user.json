@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+		"loginfooter":"../../../components/loginfooter/loginfooter"
+	},
+	"navigationStyle": "custom"
 }

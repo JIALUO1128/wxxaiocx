@@ -1,2 +1,18 @@
 <!--pages/login/login-quick/login-quick.wxml-->
-<text>pages/login/login-quick/login-quick.wxml</text>
+<!--pages/login/login-quick/login-quick.wxml-->
+<view class="content">
+<view>
+<image src="../../../img/images/Avatar.png" mode="" />
+<text>198****1537</text>
+<text>中国移动提供认证服务</text>
+</view>
+<button type="primary">登陆</button>
+<text>切换账号</text>
+<view class="footer">
+<text>通过其他方式登录</text>
+<view>
+<checkbox></checkbox>
+<text>登录即代表同意中国移动认证服务条款 和 应用自定义服务条款一、应用自定义服务条款二 并使用本机号码登录。</text>
+</view>
+</view>
+</view>

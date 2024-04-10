@@ -1,1 +1,22 @@
 /* components/loginfooter/loginfooter.wxss */
+.footer{
+  position: absolute;
+  bottom: 100rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  >view{
+    width: 140rpx;
+    padding: 0 20rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    image{
+      width: 64rpx;
+      height: 64rpx;
+      padding-bottom: 20rpx;
+    }
+  }
+}

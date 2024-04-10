@@ -5,7 +5,34 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+		settingList: [{
+      id: 1,
+      iconUrl: "../../img/images/icons/setting-icons/icon1.png",
+      text: "新消息通知"
+    }, {
+      id: 2,
+      iconUrl: "../../img/images/icons/setting-icons/icon2.png",
+      text: "版本更新"
+    }, {
+      id: 3,
+      iconUrl: "../../img/images/icons/setting-icons/icon3.png",
+      text: "清除缓存"
+    }, {
+      id: 4,
+      iconUrl: "../../img/images/icons/setting-icons/icon4.png",
+      text: "修改密码"
+    }, {
+      id: 5,
+      iconUrl: "../../img/images/icons/setting-icons/icon5.png",
+      text: "关于我们"
+    }, ]
+	},
+	logout() {
+    // 删除名为 'userInfo' 的本地存储数据
+    wx.removeStorageSync('userInfo')
+    wx.navigateTo({
+      url: '/pages/login/login-user/login-user',
+    })
   },
 
   /**

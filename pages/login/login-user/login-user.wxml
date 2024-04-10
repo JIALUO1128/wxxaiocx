@@ -1,2 +1,23 @@
 <!--pages/login/login-user/login-user.wxml-->
-<text>pages/login/login-user/login-user.wxml</text>
+<view class="nav-bar" style="height:{{navBarHeight}}px;"></view>
+<!-- 占位，高度与顶部栏一样 -->
+<view style="height:{{navBarHeight}}px; background-color: #fff;"></view>
+<view class="login-head">
+  <image src="../../../assets/images/icons/login-icons/X.png" mode="" bind:tap="off"/>
+  <text>验证码登陆</text>
+</view>
+<view class="form">
+  <text>账号密码登陆</text>
+  <view>
+    <form bindsubmit="">
+      <input type="text" placeholder="请输入登陆账号" />
+      <input type="password" placeholder="请输入密码" />
+      <text>登陆遇到问题?</text>
+      <button type="primary" bind:tap="login">登陆</button>
+    </form>
+  </view>
+
+
+</view>
+<!--loginfooter 组件 -->
+<loginfooter></loginfooter>

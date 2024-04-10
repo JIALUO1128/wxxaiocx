@@ -1,1 +1,47 @@
 /* pages/login/login-user/login-user.wxss */
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0rpx;
+  left: 0;
+  background-color: #fff;
+}
+
+/* 头部 */
+.login-head {
+  padding-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+
+  image {
+    width: 40rpx;
+    height: 40rpx;
+  }
+}
+
+/* 表单 */
+.form {
+  >text {
+    display: block;
+    font-size: 48rpx;
+    padding: 60rpx 40rpx;
+
+  }
+
+  >view {
+    padding: 0 40rpx;
+    form {
+      input {
+        padding: 40rpx 0;
+        border-bottom: 2rpx solid #D9D9D9;
+      }
+
+      text {
+        display: block;
+        padding:40rpx 0 60rpx;
+        color: #919191;
+        font-size: 28rpx;
+      }
+    }
+  }
+}

@@ -115,6 +115,18 @@ Page({
     /* 推荐组件标题 */
     texts: ['推荐应用'],
     navBarHeight: app.globalData.navBarHeight,
+	},
+	/* setting方法tiao */
+  setting() {
+    wx.navigateTo({
+      url: '/pages/setting/setting'
+    })
+  },
+  /* switchTab 跳转到message页面*/
+  switchTab() {
+    wx.switchTab({
+      url: '/pages/message/message'
+    })
   },
 
   /**

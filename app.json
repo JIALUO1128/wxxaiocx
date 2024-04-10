@@ -18,9 +18,8 @@
     "pages/login/login-face/login-face",
     "pages/login/login-quick/login-quick",
     "pages/test/test"
-
   ],
-  "entryPagePath": "pages/application/application",
+  "entryPagePath": "pages/My/My",
   "window": {
     "navigationBarTitleText": "智慧校园",
     "navigationBarBackgroundColor": "#FFFFFF",
@@ -29,37 +28,38 @@
     "enablePullDownRefresh": true
   },
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "img/首页.png",
-      "selectedIconPath": "img/首页.png"
-    },
-    {
-      "pagePath": "pages/application/application",
-      "text": "应用",
-      "iconPath": "img/应用.png",
-      "selectedIconPath": "img/应用.png"
-    },
-    {
-      "pagePath": "pages/news/news",
-      "text": "消息",
-      "iconPath": "img/消息.png",
-      "selectedIconPath": "img/消息.png"
-    },
-    {
-      "pagePath": "pages/find/find",
-      "text": "发现",
-      "iconPath": "img/发现.png",
-      "selectedIconPath": "img/发现.png"
-    },
-    {
-      "pagePath": "pages/My/My",
-      "text": "我的",
-      "iconPath": "img/我的.png",
-      "selectedIconPath": "img/我的.png"
-    }
-  ]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/首页.png",
+        "selectedIconPath": "img/首页.png"
+      },
+      {
+        "pagePath": "pages/application/application",
+        "text": "应用",
+        "iconPath": "img/应用.png",
+        "selectedIconPath": "img/应用.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "消息",
+        "iconPath": "img/消息.png",
+        "selectedIconPath": "img/消息.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "img/发现.png",
+        "selectedIconPath": "img/发现.png"
+      },
+      {
+        "pagePath": "pages/My/My",
+        "text": "我的",
+        "iconPath": "img/我的.png",
+        "selectedIconPath": "img/我的.png"
+      }
+    ]
   },
   "style": "v2",
   "componentFramework": "glass-easel",

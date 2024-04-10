@@ -1,11 +1,31 @@
 // pages/login/login-user/login-user.js
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+		navBarHeight: app.globalData.navBarHeight,
+    menuRight: app.globalData.menuRight,
+    menuTop: app.globalData.menuTop,
+    menuHeight: app.globalData.menuHeight,
+	},
+  off(){
+    wx.navigateBack({})
+  },
+  login(){
+    wx.setStorageSync('userInfo', {name:"user"});
+    wx.redirectTo({
+      url: '/pages/setting/setting',
+      success: function(res) {
+        console.log('页面刷新成功');
+      },
+      fail: function(res) {
+        console.log('页面刷新失败');
+      }
+    })
+    
   },
 
   /**

@@ -105,7 +105,12 @@ Page({
         iconTitle: "学生信息",
         imageUrl: "../../img/images/icons/图标9Y998f10@1x.png"
       },
-    ],
+		],
+		imInfos: {
+      name: "user",
+      text: "信息化管理中心",
+      imageUrl: "../../assets/images/Avatar.png"
+    },
 
   },
 

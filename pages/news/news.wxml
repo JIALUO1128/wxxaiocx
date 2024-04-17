@@ -4,5 +4,6 @@
 </head-model>
 <status-of-things things="{{things}}">
 </status-of-things>
-<messagelist messagelist="{{messagelist}}">
+<messagelist messagelist="{{messagelist}}" 
+binddelete="onMessageDelete">
 </messagelist>

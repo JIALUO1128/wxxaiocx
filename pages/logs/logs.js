@@ -1,5 +1,5 @@
 // pages/logs/logs.js
-const util = require('../../utils/util.js')
+const util = require('../../pages/utils/utils')
 Page({
 
   /**

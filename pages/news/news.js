@@ -52,10 +52,15 @@ Page({
 		text2:"工作部门:系统维护 请假申请人:xxx",
 		imageUrl:"../../img/images/icons/apply.png",
 		time:"昨天"
-	},]
-
+	},
+],
   },
-
+	onMessageDelete(e) {  
+    const messageId = e.detail.id;  
+    // 从 messagelist 中删除对应的消息项  
+    const newMessagelist = this.data.messagelist.filter(item => item.id !== messageId);  
+    this.setData({ messagelist: newMessagelist });  
+  },  
   /**
    * 生命周期函数--监听页面加载
    */

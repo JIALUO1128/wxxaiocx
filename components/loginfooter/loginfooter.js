@@ -27,7 +27,7 @@ Component({
       iconUrl: "../../img/images/icons/login-icons/weixindenglu.png",
       path: ""
     }]
-  },
+	},
 
   /**
    * 组件的方法列表

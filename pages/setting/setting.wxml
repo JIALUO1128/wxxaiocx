@@ -1,6 +1,6 @@
 <!--pages/setting/setting.wxml-->
 <view class="settingList" wx:for="{{settingList}}" wx:key="id">
-<image src="{{item.iconUrl}}" mode=""/>
+<image src="{{item.iconUrl}}" mode="widthFix"/>
 <text>{{item.text}}</text>
 </view>
 <!-- 退出登陆 -->

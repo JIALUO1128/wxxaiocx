@@ -2,11 +2,11 @@
 <!--pages/login/login-quick/login-quick.wxml-->
 <view class="content">
 <view>
-<image src="../../../img/images/Avatar.png" mode="" />
+<image src="../../../img/images/Avatar.png" mode="widthFix" />
 <text>198****1537</text>
 <text>中国移动提供认证服务</text>
 </view>
-<button type="primary">登陆</button>
+<button type="primary" bind:tap="buttonT">登陆</button>
 <text>切换账号</text>
 <view class="footer">
 <text>通过其他方式登录</text>

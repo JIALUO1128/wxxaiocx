@@ -1,10 +1,11 @@
 <!--components/messagelist/messagelist.wxml-->
 <!-- 补课申请 -->
 <view class="messagelist" wx:for="{{messagelist}}"wx:key="id">
-<image src="{{item.imageUrl}}" mode=""/>
+<image src="{{item.imageUrl}}" mode="widthFix"/>
 <view>
-<text>{{item.text1}}</text>
-<text>{{item.text2}}</text>
+	<text>{{item.text1}}</text>
+	<text>{{item.text2}}</text>
 </view>
-<text>{{item.item}}</text>
+	<text>{{item.time}}</text>
+	<button bindtap="handleDutton" data-id="{{item.id}} ">删除</button>
 </view>

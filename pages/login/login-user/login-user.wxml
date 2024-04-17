@@ -3,7 +3,7 @@
 <!-- 占位，高度与顶部栏一样 -->
 <view style="height:{{navBarHeight}}px; background-color: #fff;"></view>
 <view class="login-head">
-  <image src="../../../assets/images/icons/login-icons/X.png" mode="" bind:tap="off"/>
+  <image src="../../../img/images/icons/login-icons/X.png" mode="" bind:tap="off"/>
   <text>验证码登陆</text>
 </view>
 <view class="form">

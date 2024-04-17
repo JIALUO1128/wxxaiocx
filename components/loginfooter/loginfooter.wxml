@@ -2,6 +2,6 @@
 <view class="footer">
   <view wx:for="{{footerList}}" wx:key="id" bindtap="next_calculator" data-id="{{item.id}}">
     <image src="{{item.iconUrl}}" mode="" />
-    <text>{{item.text}}</text>
+    <text bind:tap="texttabBar">{{item.text}}</text>
   </view>
 </view>

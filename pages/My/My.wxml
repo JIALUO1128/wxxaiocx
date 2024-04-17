@@ -2,9 +2,9 @@
 <!-- 顶部栏 -->
 <view class="my-head" style="height: {{navBarHeight+100}}px;">
   <view class="head" style="top: {{navBarHeight}}px;">
-    <image src="../../img/images/icons/setting.png" mode="" bind:tap="setting"></image>
+    <image src="../../img/images/icons/setting.png" mode="widthFix" bind:tap="setting"></image>
     <view><text>我的</text></view>
-    <image src="../../img/images/icons/message.png" mode="" bind:tap="switchTab" />
+    <image src="../../img/images/icons/message.png" mode="widthFix" bind:tap="switchTab" />
   </view>
   <view class="my-head-info">
     <view class="logged" wx:if="{{userInfo.name}}">
